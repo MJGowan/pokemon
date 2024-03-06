@@ -1,0 +1,131 @@
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+body {
+    background-image: linear-gradient(var(--rotate), #ff7878bf, #ffc72ca8, #78ff7aba, #78a7ffb4, #ff7878bf);
+    background-repeat: no-repeat;
+    background-size: 300% 300%;
+    min-height: 100vh;
+
+    animation: background 12s ease infinite;
+}
+
+@keyframes background {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 90%}
+}
+
+.search{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff98;
+    font-weight: bold;
+    font-size: large;
+}
+
+.pkmnImg {
+    width: 100%;
+}
+
+.evolutions{
+    height: 300px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.evo {
+    width: 150px;
+}
+
+.customCont {
+    background-color: #e6ecf5;
+    padding: 20px;
+    border: #000000 solid 1px;
+    margin: 10px;
+}
+
+.abilities{
+    height: 215px;
+}
+
+.moves{
+    height: 300px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.description{
+    height: 200px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.normal {
+    background-color: rgb(185, 179, 151);
+}
+.fire {
+    background-color: rgb(232, 104, 58);
+}
+.water {
+    background-color: rgb(89, 120, 231);
+}
+.electric {
+    background-color: rgb(255, 183, 0);
+}
+.grass {
+    background-color: rgb(64, 188, 64);
+}
+.ice {
+    background-color: rgb(87, 200, 238);
+}
+.fighting {
+    background-color: rgb(208, 84, 31);
+}
+.poison {
+    background-color: rgb(169, 64, 192);
+}
+.ground {
+    background-color: rgb(234, 182, 60);
+}
+.flying {
+    background-color: rgb(125, 164, 255);
+}
+.psychic {
+    background-color: rgb(255, 84, 192);
+}
+.bug {
+    background-color: rgb(160, 191, 97);
+}
+.rock {
+    background-color: rgb(216, 146, 41);
+}
+.ghost {
+    background-color: rgb(131, 95, 155);
+}
+.dragon {
+    background-color: rgb(82, 45, 196);
+}
+.dark {
+    background-color: rgb(70, 58, 51);
+}
+.steel {
+    background-color: rgb(128, 156, 171);
+}
+.fairy {
+    background-color: rgb(242, 130, 169);
+}
