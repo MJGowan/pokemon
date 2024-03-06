@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: 300% 300%;
     min-height: 100vh;
-
+    overflow-x: hidden;
     animation: background 12s ease infinite;
 }
 
@@ -128,4 +128,11 @@ body {
 }
 .fairy {
     background-color: rgb(242, 130, 169);
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+.evRow{
+    margin-top: 16%;
+}
 }
