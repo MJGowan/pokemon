@@ -136,3 +136,9 @@ body {
     margin-top: 16%;
 }
 }
+
+@media screen and (min-width: 1400px){
+    .pkmnImg {
+        width: 85%;
+    }
+}
