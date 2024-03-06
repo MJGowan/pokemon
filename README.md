@@ -1,2 +1,2 @@
-Madeline Gowan
-A pokedex imitation done using a third-party "PokeAPI" (https://pokeapi.co)
+// Madeline Gowan
+// A pokedex imitation done using a third-party "PokeAPI" (https://pokeapi.co)
